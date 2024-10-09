@@ -1,16 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+html {
+    height: 100%;
 }
 
 body {
     margin: auto;
     text-align: center;
+    background: linear-gradient(#ffffff, #b4e4c4);
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
     margin-top: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .compteur {
@@ -21,14 +29,30 @@ h1 {
 }
 
 .compteur button {
-    width: 50px;
-    border: #828282 solid 1px;
+    width: 120px;
+    height: 25px;
+    border: #ffffff solid 1px;
     border-radius: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.compteur button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 .btnreset {
     width: 70px;
-    border: #828282 solid 1px;
+    height: 25px;
+    border: #ffffff solid 1px;
     border-radius: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
+.btnreset:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
