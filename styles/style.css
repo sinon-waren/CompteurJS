@@ -28,9 +28,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-.compteur button {
-    width: 120px;
-    height: 25px;
+.compteur button, .btnreset {
     border: #ffffff solid 1px;
     border-radius: 12px;
     background-color: #ffffff;
@@ -38,7 +36,12 @@ h1 {
     transition-duration: 0.4s;
 }
 
-.compteur button:hover {
+.compteur button {
+    width: 120px;
+    height: 25px;
+}
+
+.compteur button:hover, .btnreset:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
@@ -46,13 +49,4 @@ h1 {
 .btnreset {
     width: 70px;
     height: 25px;
-    border: #ffffff solid 1px;
-    border-radius: 12px;
-    background-color: #ffffff;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-.btnreset:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
